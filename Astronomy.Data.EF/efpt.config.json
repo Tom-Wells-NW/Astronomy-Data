@@ -1,0 +1,51 @@
+﻿{
+   "CodeGenerationMode": 0,
+   "ContextClassName": "AstronomicalDataContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": "Data",
+   "OutputPath": "Models",
+   "ProjectRootNamespace": "Astronomy.Data.EF",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[HygData]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Import].[HabHYG]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Import].[HygData_V3]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[pGetCountOfStarsInCoordinateRange]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[pGetStarsInCoordinateRange]",
+         "ObjectType": 1
+      }
+   ],
+   "UiHint": "ix\\sql2019.Astronomical-Data.dbo",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseNoConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSpatial": false
+}

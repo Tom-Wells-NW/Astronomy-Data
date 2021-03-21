@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Astronomy.Core", "Astronomy.Core\Astronomy.Core.csproj", "{419DB472-E4B5-420B-83ED-889110B6D663}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Astronomy.Api", "Astronomy.Api\Astronomy.Api.csproj", "{814C6E1F-3E0E-4218-8984-CAD9495B869A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Astronomy.Data.EF", "Astronomy.Data.EF\Astronomy.Data.EF.csproj", "{3E06BA4E-3726-4282-A624-061F967FA071}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Astronomy.TestHarness01", "Astronomy.TestHarness01\Astronomy.TestHarness01.csproj", "{08023118-64D6-40EC-930B-A06B94BD2AB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{D1E0E649-3969-4CB6-9DE7-CCCE38CF0285}"
+	ProjectSection(SolutionItems) = preProject
+		_Documentation\Dev-Notes-001.txt = _Documentation\Dev-Notes-001.txt
+		_Documentation\Dev-Notes-002.txt = _Documentation\Dev-Notes-002.txt
+		_Documentation\ReadMe.md = _Documentation\ReadMe.md
+		_Documentation\Web-Resources-001.md = _Documentation\Web-Resources-001.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Astronomy.TestHarness02", "Astronomy.TestHarness02\Astronomy.TestHarness02.csproj", "{D9AE2460-D99E-4870-818F-2FC222068949}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{419DB472-E4B5-420B-83ED-889110B6D663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{419DB472-E4B5-420B-83ED-889110B6D663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{419DB472-E4B5-420B-83ED-889110B6D663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{419DB472-E4B5-420B-83ED-889110B6D663}.Release|Any CPU.Build.0 = Release|Any CPU
+		{814C6E1F-3E0E-4218-8984-CAD9495B869A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{814C6E1F-3E0E-4218-8984-CAD9495B869A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{814C6E1F-3E0E-4218-8984-CAD9495B869A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{814C6E1F-3E0E-4218-8984-CAD9495B869A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E06BA4E-3726-4282-A624-061F967FA071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E06BA4E-3726-4282-A624-061F967FA071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E06BA4E-3726-4282-A624-061F967FA071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E06BA4E-3726-4282-A624-061F967FA071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08023118-64D6-40EC-930B-A06B94BD2AB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08023118-64D6-40EC-930B-A06B94BD2AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08023118-64D6-40EC-930B-A06B94BD2AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08023118-64D6-40EC-930B-A06B94BD2AB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9AE2460-D99E-4870-818F-2FC222068949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9AE2460-D99E-4870-818F-2FC222068949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9AE2460-D99E-4870-818F-2FC222068949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9AE2460-D99E-4870-818F-2FC222068949}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9554C5F6-1E04-464A-88B0-5BD3431A3A25}
+	EndGlobalSection
+EndGlobal

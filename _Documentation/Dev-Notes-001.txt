@@ -1,0 +1,38 @@
+
+
+Solution Notes
+
+--------------------------------------------------------------------------
+Project Types:
+---------------------------------------------------------------------------
+Name                          Type
+---------------------------------------------------------------------------
+
+Astronomy.Api                 .NET 5 WebAPI (Ultimately a Console Application)
+Astronomy.Core                .NET Class Library
+Astronomy.Data.EF             .NET Class Library
+Astronomy.TestHarness01       .NET Console Application
+
+
+
+
+--------------------------------------------------------------------------
+Project NuGet References:
+---------------------------------------------------------------------------
+Name                          NuGet Packages
+---------------------------------------------------------------------------
+
+Astronomy.Api                 Microsoft.EntityFrameworkCore Version="6.0.0-preview.2.21154.2" 
+                              Microsoft.EntityFrameworkCore.SqlServer Version="6.0.0-preview.2.21154.2" 
+                              Swashbuckle.AspNetCore Version="6.1.1" 
+                              Unity.Microsoft.DependencyInjection Version="5.11.5" 
+
+
+Astronomy.Core                ConsoleTables Version="2.4.2" 
+
+Astronomy.Data.EF             AutoMapper Version="10.1.1" 
+                              EfCore.SchemaCompare Version="5.1.3"
+                              Microsoft.EntityFrameworkCore.SqlServer Version="5.0.4" 
+
+Astronomy.TestHarness01       N/A
+
