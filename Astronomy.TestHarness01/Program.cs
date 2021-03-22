@@ -17,16 +17,28 @@ namespace Astronomy.TestHarness01
         static async Task Main(string[] args)
         {
             _starSystemDataService = new StarSystemDataService();
+            double c = 4;
+            do
+            {
+                c = UserInputNumber("Input a number (format: X.0): ");
 
-            Output("Starting up....");
-            Output("Calling StarSystemDataService...");
-            Output("    GetCountOfStarsInCoordinateRange(-5, -5, -5, 5, 5, 5)");
-            var count = await GetCountOfStarsInCoordinateRange(-5, -5, -5, 5, 5, 5);
-            Output("    GetStarsInCoordinateRange(-5, -5, -5, 5, 5, 5)");
-            var starSystems = await GetStarsInCoordinateRange(-5, -5, -5, 5, 5, 5);
-            Output("Done");
-            Output();
-            Output(starSystems.ToMarkdownString());
+                Output("Starting up....");
+                Output("Calling StarSystemDataService...");
+
+
+                Output($"    GetCountOfStarsInCoordinateRange(-{c}, -{c}, -{c}, {c}, {c}, {c})");
+                var count = await GetCountOfStarsInCoordinateRange(-c, -c, -c, c, c, c);
+                Output($"Stars within range: {count}");
+
+                Output($"    GetStarsInCoordinateRange(-{c}, -{c}, -{c}, {c}, {c}, {c})");
+                var starSystems = await GetStarsInCoordinateRange(-c, -c, -c, c, c, c);
+
+                Output(starSystems.ToMarkdownString());
+                Output();
+                Output();
+                Output($"Done (returned {count} stars)...");
+                Output();
+            } while (c >= 1);
             WaitApp();
         }
 
@@ -42,6 +54,14 @@ namespace Astronomy.TestHarness01
         static async Task<int> GetCountOfStarsInCoordinateRange(double Xmin, double Ymin, double Zmin, double Xmax, double Ymax, double Zmax)
         {
             var result = await _starSystemDataService.GetCountOfStarsInCoordinateRangeAsync(Xmin, Ymin, Zmin, Xmax, Ymax, Zmax);
+            return result;
+        }
+
+        static double UserInputNumber(string message = null)
+        {
+            Console.Write(message);
+            var userInput = Console.ReadLine();
+            var result = double.Parse(userInput);
             return result;
         }
 
