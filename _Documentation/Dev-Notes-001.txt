@@ -9,9 +9,9 @@ Name                          Type
 ---------------------------------------------------------------------------
 
 Astronomy.Api                 .NET 5 WebAPI (Ultimately a Console Application)
-Astronomy.Core                .NET Class Library
-Astronomy.Data.EF             .NET Class Library
-Astronomy.TestHarness01       .NET Console Application
+Astronomy.Core                .NET 5 Class Library
+Astronomy.Data.EF             .NET 5 Class Library
+Astronomy.TestHarness01       .NET 5 Console Application
 
 
 
